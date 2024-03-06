@@ -1,0 +1,150 @@
+{
+    "particles": [
+      {
+        "name": "Quark",
+        "types": [
+          {
+            "name": "Up",
+            "parent": "Quark",
+            "charge": "2/3",
+            "mass": "2.3 MeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Down",
+            "parent": "Quark",
+            "charge": "-1/3",
+            "mass": "4.8 MeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Charm",
+            "parent": "Quark",
+            "charge": "2/3",
+            "mass": "1.27 GeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Strange",
+            "parent": "Quark",
+            "charge": "-1/3",
+            "mass": "95 MeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Top",
+            "parent": "Quark",
+            "charge": "2/3",
+            "mass": "173.1 GeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Bottom",
+            "parent": "Quark",
+            "charge": "-1/3",
+            "mass": "4.18 GeV",
+            "spin": "1/2"
+          }
+        ]
+      },
+      {
+        "name": "Lepton",
+        "types": [
+          {
+            "name": "Electron",
+            "parent": "Lepton",
+            "charge": "-1",
+            "mass": "0.511 MeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Muon",
+            "parent": "Lepton",
+            "charge": "-1",
+            "mass": "105.7 MeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Tau",
+            "parent": "Lepton",
+            "charge": "-1",
+            "mass": "1776.86 MeV",
+            "spin": "1/2"
+          }
+        ]
+      },
+      {
+            "name": "Neutrinos",
+            "types": [
+
+          {
+            "name": "Electron Neutrino",
+            "parent": "Neutrino",
+            "charge": "0",
+            "mass": "less than 2.2 eV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Muon Neutrino",
+            "parent": "Neutrino",
+            "charge": "0",
+            "mass": "less than 0.17 MeV",
+            "spin": "1/2"
+          },
+          {
+            "name": "Tau Neutrino",
+            "parent": "Neutrino",
+            "charge": "0",
+            "mass": "less than 15.5 MeV",
+            "spin": "1/2"
+          }
+        ]
+      },
+      {
+        "name": "Bosons",
+        "types": [
+          {
+            "name": "Photon",
+            "parent": "Bosons",
+            "charge": "0",
+            "mass": "0",
+            "spin": "1"
+          },
+          {
+            "name": "W Boson",
+            "parent": "Bosons",
+            "charge": "±1",
+            "mass": "80.4 GeV",
+            "spin": "1"
+          },
+          {
+            "name": "Z Boson",
+            "parent": "Bosons",
+            "charge": "0",
+            "mass": "91.2 GeV",
+            "spin": "1"
+          },
+          {
+            "name": "Gluon",
+            "parent": "Bosons",
+            "charge": "0",
+            "mass": "0",
+            "spin": "1"
+          }
+        ]
+      },
+      {
+        "name": "Higgs Boson",
+        "types": [
+          {
+            "name": "Higgs",
+            "parent": "Bosons",
+            "charge": "0",
+            "mass": "125.1 GeV",
+            "spin": "0"
+          }
+        ]
+      }
+    ]
+  }
+  
